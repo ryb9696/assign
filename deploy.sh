@@ -9,4 +9,4 @@ echo "Deploying shell script to $environment environment..."
 # TODO: Implement the deployment logic here
 
 # Print a success message
-echo "Deployed to $environment e
+echo "Deployed to $environment environment successfully!"
