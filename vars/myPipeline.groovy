@@ -8,7 +8,7 @@ def call(String branch) {
             stage('Checkout') {
                 steps {
                     script {
-                        checkout([$class: 'GitSCM', branches: [[name: branch]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/ryb9696/assignment1.git']]])
+                        checkout([$class: 'GitSCM', branches: [[name: branch]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/ryb9696/assign.git']]])
                     }
                 }
             }
